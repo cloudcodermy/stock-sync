@@ -56,7 +56,7 @@
   <!--  button to shopify app page -->
   <!-- on the right shopify banner -->
   <!-- there is a double of the same text added the first is for normal screens the second is for mobile -->
-    <header class="header header-inverse h-fullscreen pb-80" style="background-color: #6bcbfd">
+    <header class="header header-inverse h-fullscreen pb-80" style="background-color: #6bcbfd;height: 500px";>
       <div class="container text-center">
         <div class="row h-full">
           <div class="container text-center">
@@ -72,7 +72,7 @@
               </div>
               <div class="col-12 col-lg-6 align-self-center text-center text-lg-left" >
                 <div class="display-1 hidden-sm-down"><img src="assets/img/icon.png" style="height:450px;margin-left: 50px;"></div>
-                <h1 class="fs-40 col-12 col-lg-6 align-self-center text-center text-lg-left hidden-md-up">new things are yet to come!</h1>
+                <!-- <h1 class="fs-40 col-12 col-lg-6 align-self-center text-center text-lg-left hidden-md-up"></h1> -->
               </div>
             </div>
           </div>
@@ -93,7 +93,10 @@
     <div class="space" style="height: 10px;"></div>
 
       <div class="row">
-         <div class="col-xs-6 align-self-center hidden-md-down" style="margin-left:100px;">
+          <div class="col-xs-6 align-self-center hidden-md-down" style="margin-left:100px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XdswIxbIgTk" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9 align-self-center hidden-md-up">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/XdswIxbIgTk" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="col-xs-6 align-self-center" style="margin-left:30px;">
@@ -105,7 +108,6 @@
       </div>
         
     
-
 
   <!-- Features page -->
   <!-- picture then string jquery fadeIN and animate  -->
@@ -119,6 +121,7 @@
      
 
  
+
      <div class="row gap-y align-items-center">
           <div class="col-md-5">
             <img class="rounded shadow-2" src="assets/img/demo/github/feature-1.png" alt="..." data-aos="slide-right">
@@ -196,6 +199,7 @@
       <header class="section-header">
             <h2>TESTMONIALS</h2>
       </header>
+
      
      <div class="swiper-container swiper-button-circular" data-slides-per-view="2" data-space-between="50" data-centered-slides="true">
             <div class="swiper-wrapper pb-0">
@@ -375,8 +379,65 @@
 
 
    <!-- Contact Us -->
-   <!-- footer -->
+    <!-- name -->
+    <!-- email -->
+    <!-- message -->
+    <div class="container" id="section-contactus">
+      <div class="row gap-y">
+        <div class="col-12 col-md-12 text-center">
+          <h1>Contact Us</h1>
+          <p>Let keep in touch.</p>
+          <form class="p-30 bg-gray rounded" action="assets/php/sendmail.php" method="POST" data-form="mailer">
+                <div class="alert alert-success">We received your message and will contact you back soon.</div>
 
+                <div class="row">
+                  <div class="form-group col-12 col-md-6">
+                    <input class="form-control form-control-lg" type="text" name="name" placeholder="Your Name">
+                  </div>
+
+                  <div class="form-group col-12 col-md-6">
+                    <input class="form-control form-control-lg" type="email" name="email" placeholder="Your Email Address">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <textarea class="form-control form-control-lg" rows="4" placeholder="Your Message" name="message"></textarea>
+                </div>
+
+                <div class="text-center">
+                  <button class="btn btn-lg btn-primary" type="submit">Submit Enquiry</button>
+                </div>
+              </form>
+        </div>
+      </div>
+    </div>
+    <div class="space" style="height:50px;"></div>
+
+   <!-- footer -->
+        <footer class="site-footer">
+        <div class="container">
+          <div class="row gap-y">
+            <div class="col-12 col-md-12">
+              <p class="text-center text-md-left">Copyright © 2017 <a class="text-dark" href="#">StockSnyc</a>. All rights reserved.</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="nav nav-inline nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">terms of use</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy policy</a>
+                </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </footer>
+      
    <!-- help  -->
    <!-- dont know yet.. -->
   
