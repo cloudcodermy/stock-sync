@@ -1,0 +1,31 @@
+.header{
+	background-color: #6bcbfd;
+	height: 500px;
+}
+.home_page_icon{
+	height: 450px;
+	margin-left: 100px;
+}
+.home_page_icon_for_mobile{
+	height: 225px;
+
+}
+.blue_line{
+	background-color: #6bcbfd;
+}
+.space_div_for_home_and_features{
+	height: 40px;
+
+}
+.youtube_video{
+	margin-left: 100px;
+}
+.text_beside_video{
+	margin-left: 30px;
+}
+.space_div_for_contact_us{
+	height: 50px;
+}
+.space_for_footer{
+	height:50px;
+}

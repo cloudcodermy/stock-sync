@@ -12,6 +12,7 @@
     <link href="assets/css/core.min.css" rel="stylesheet">
     <link href="assets/css/thesaas.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/styling_for_index.css" rel="stylesheet">
 
 </head>
 <body id="home">
@@ -28,7 +29,7 @@
       <div class="container">
         
         <div class="topbar-left">
-          <button class="topbar-toggler">&#9776;</button>
+          <button class="topbar-toggler" id="home_button">&#9776;</button>
             <a class="topbar-brand" href="landing_page.html">
             <img class="logo-default" src="assets/img/SS_Logo_V2R2-01.png" alt="logo">
             <img class="logo-inverse" src="assets/img/SS_Logo_V2R2-02.png" alt="logo">
@@ -56,7 +57,7 @@
   <!--  button to shopify app page -->
   <!-- on the right shopify banner -->
   <!-- there is a double of the same text added the first is for normal screens the second is for mobile -->
-    <header class="header header-inverse h-fullscreen pb-80" style="background-color: #6bcbfd;height: 500px";>
+    <header class="header header-inverse h-fullscreen pb-80">
       <div class="container text-center">
         <div class="row h-full">
           <div class="container text-center">
@@ -72,8 +73,8 @@
               </div>
 
               <div class="col-12 col-lg-6 align-self-center text-center text-lg-left" >
-                <div class="display-1 hidden-sm-down"><img src="assets/img/icon.png" style="height:450px;margin-left: 100px;"></div>
-                <div class="fs-40 col-12 col-lg-6 hidden-md-up"><img src="assets/img/icon.png" style="height: 225px;"></div>
+                <div class="display-1 hidden-sm-down home_page_icon"><img src="assets/img/icon.png"></div>
+                <div class="fs-40 col-12 col-lg-6 hidden-md-up home_page_icon_for_mobile"><img src="assets/img/icon.png"></div>
               </div>
 
             </div>
@@ -90,19 +91,19 @@
     </header>
 
 
-    <hr class="w-60 hidden-sm-down" style="background-color: #6bcbfd;">
+    <hr class="w-60 hidden-sm-down blue_line">
 
-    <div class="col-12 text-center" stlye="background-color: white;">
+    <div class="col-12 text-center">
       <p class="lead">Tired of managing your inventory from other vendors?</p>
       <p class="lead"><h1><OBJECT>OVER 1,000+ Shopify Stores</OBJECT></h1></p>
     </div>
 
-    <div class="space" style="height: 40px;"></div>
+    <div class="space space_div_for_home_and_features"></div>
       
       <div class="container">    
         <div class="row">
             
-            <div class="col-xs-6 align-self-center hidden-md-down" style="margin-left:100px;">
+            <div class="col-xs-6 align-self-center hidden-md-down youtube_video"">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/XdswIxbIgTk" frameborder="0" allowfullscreen></iframe>
             </div>
             
@@ -110,7 +111,7 @@
               <iframe width="560" height="315" src="https://www.youtube.com/embed/XdswIxbIgTk" frameborder="0" allowfullscreen></iframe>
             </div>
             
-            <div class="col-xs-6 align-self-center" style="margin-left:30px;">
+            <div class="col-xs-6 align-self-center text_beside_video">
               <p class="lead">video video video video video</p>
               <p class="lead">video video video video video</p>
               <p class="lead">video video video video video</p>
@@ -542,7 +543,7 @@
     <!-- name -->
     <!-- email -->
     <!-- message -->
-    <div class="space" style="height:50px;"></div>
+    <div class="space space_div_for_contact_us"></div>
     <div class="container" id="section-contactus">
       <div class="row gap-y">
         <div class="col-12 col-md-12 text-center">
@@ -573,7 +574,7 @@
         </div>
       </div>
     </div>
-    <div class="space" style="height:50px;"></div>
+    <div class="space space_for_footer"></div>
 
    <!-- footer -->
    <!-- footer got error -->
