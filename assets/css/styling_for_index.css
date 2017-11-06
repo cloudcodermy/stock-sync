@@ -18,14 +18,18 @@
 
 }
 .youtube_video{
-	margin-left: 100px;
+	margin-left: 0px;
 }
 .text_beside_video{
-	margin-left: 30px;
+	margin-left: 50px;
+	margin-bottom: 105px;
 }
 .space_div_for_contact_us{
 	height: 50px;
 }
 .space_for_footer{
 	height:50px;
+}
+.space_text_below_header{
+	height: 30px;
 }
