@@ -18,10 +18,10 @@
 
 }
 .youtube_video{
-	margin-right: 25px;
+	margin-left: 131px;
 }
 .text_beside_video{
-	margin-left: 25px;
+	margin-left: 75px;
 	margin-bottom: 105px;
 }
 .space_div_for_contact_us{
@@ -39,12 +39,49 @@
 .topbar-toggler{
 	margin-top: 10px;
 }
-
+.font{
+	font-family: futura;
+	font-weight: lighter;
+}
+.feature_one{
+	width:450px;
+}
+.feature_two{
+	width: 450px;
+	margin-left: 90px;
+}
+.feature_three{
+	width: 450px;
+}
+.feature_four{
+	width: 450px;
+	margin-left: 100px;
+}
+.feature_five{
+	width: 450px;
+	margin-right: 100px;
+}
+.upload-img-one{
+	height: 160px;
+	/*width: 160px;*/
+}
+.upload-img-two{
+	height: 160px;
+/*	width: 160px;*/
+}
+.upload-img-three{
+	height: 155px;
+/*	width:160px;*/
+}
+.upload-img-four{
+	height: 160px;
+/*	width: 160px;*/
+}
 
 
 @media only screen and (max-width: 500px) {
 .swiper-container.swiper-button-circular{
- /*CSS animations*/
+ /*CSS animations
  -webkit-animation: none !important;
  -moz-animation: none !important;
  -o-animation: none !important;
