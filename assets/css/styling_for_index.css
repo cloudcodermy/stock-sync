@@ -78,6 +78,10 @@
 /*	width: 160px;*/
 }
 
+.header-hero {
+	padding-top : 50px;
+}
+
 
 @media only screen and (max-width: 500px) {
 .swiper-container.swiper-button-circular{
