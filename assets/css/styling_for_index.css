@@ -104,7 +104,7 @@ p.fs-20.w-600.mx-auto.hidden-sm-down{
 
 @media only screen and (max-width: 500px) {
 *{
- /*CSS transitions*/
+/*CSS transitions*/
  -o-transition-property: none !important;
  -moz-transition-property: none !important;
  -ms-transition-property: none !important;
@@ -121,9 +121,10 @@ p.fs-20.w-600.mx-auto.hidden-sm-down{
  -moz-animation: none !important;
  -o-animation: none !important;
  -ms-animation: none !important;
- animation: none !important;	
+ animation: none !important;
  }
 }
+
 
 @media only screen and (max-width: 1200px){
   .col-md-3.aos-init.aos-animate{
