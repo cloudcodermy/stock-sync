@@ -142,3 +142,18 @@ p.fs-20.w-600.mx-auto.hidden-sm-down{
   }
 }
 
+.btn-outline {
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+}
+
+.topbar .btn-outline {
+	color: #fff;
+	border-color: #fff;
+}
+
+.body-scrolled .topbar .btn-outline {
+	color: #46da60;
+	border-color: #46da60;	
+}
