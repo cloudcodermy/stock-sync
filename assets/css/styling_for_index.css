@@ -149,11 +149,14 @@ p.fs-20.w-600.mx-auto.hidden-sm-down{
 }
 
 .topbar .btn-outline {
-	color: #fff;
-	border-color: #fff;
+	color: white;
+	background-color: transparent;
+	border-color: white;
 }
 
 .body-scrolled .topbar .btn-outline {
-	color: #46da60;
+	color: #7e7e7e;
 	border-color: #46da60;	
+
 }
+
