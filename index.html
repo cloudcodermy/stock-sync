@@ -722,9 +722,9 @@
     <div class="container" id="section-contactus">
       <div class="row gap-y">
         <div class="col-12 col-md-12 text-center">
-          <h2 class="font">CONTACT US</h1>
+          <h2 class="font">CONTACT US</h2>
            <p>Let stay in touch.</p>
-           <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
+           <!-- <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
             <form id="odamae-contact-form" method="post" style="display: none">
                 <div class="odamae-row">
                 <input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Name" />
@@ -735,26 +735,27 @@
                 <div class="odamae-row actions">
                 <input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_e69405e5f50c79fdbbeb8b372d88fec2_5f53" />
                 </div>
-            </form>
-            
+            </form> -->
+
+            <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
+              <form id="odamae-contact-form" method="post" style="display: none">
+                <div class="odamae-row">
+                    <input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Name" />
+                    <input type="text" class="odamae-input" name="contact" id="contact" value="" placeholder="Email" />
+                    <textarea class="odamae-textarea" name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+                </div>
+                <div class="odamae-row visual-captcha" style="background-color: gray;"></div>
+                <div class="odamae-row actions">
+                    <input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_e69405e5f50c79fdbbeb8b372d88fec2_5f53" />
+                </div>
+              </form>
         </div>
       </div>
     </div>
+    
    <div class="space space_for_footer"></div>
   
-<!-- <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
-<form id="odamae-contact-form" method="post" style="display: none">
-    <div class="odamae-row">
-    <input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Name" />
-    <input type="text" class="odamae-input" name="contact" id="contact" value="" placeholder="Email" />
-    <textarea class="odamae-textarea" name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-    </div>
-    <div class="odamae-row visual-captcha"></div>
-    <div class="odamae-row actions">
-    <input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_e69405e5f50c79fdbbeb8b372d88fec2_5f53" />
-    </div>
-</form>
- -->
+
    <!-- footer -->
    <!-- footer got error -->
         <footer class="site-footer">
@@ -795,7 +796,12 @@
                     <a href="https://www.alterego-lingerie.com/">Alterego Lingerie</a>
                   </p>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                  <div>
+                    <h6 class="heading-alt text-uppercase fs-14 mb-3" style="text-align: center;">We are partner with</h6>
+                    <a href="https://www.shopify.com/?ref=cloudcoder"><img src="assets/img/shopify-logo-main.png"></a>
+                  </div>
+                </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/stocksync_logo2.png" style="max-width: 80%;">
                         <div class="space" style="height: 20px;"></div>
