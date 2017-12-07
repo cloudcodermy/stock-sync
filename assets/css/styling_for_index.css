@@ -162,4 +162,10 @@ p.fs-20.w-600.mx-auto.hidden-sm-down{
 .site-footer{
 	background-color: #f8f8f8;
 }
-
+.compare_table{
+	text-align: center;
+	background-color: #f2fbfe; 
+}
+.table_align{
+	text-align: center;
+}
