@@ -213,9 +213,13 @@ p.fs-20.w-600.mx-auto.hidden-sm-down {
 .stocksync_vs_syncce_first_table {
 	text-align: center;
 	color: #3498db;
+	font-family: futura;
+    font-weight: lighter;
 }
-.stocksync_vs_syncce_color {
-	color: #3498db;
+.stocksync_vs_syncce_feature{
+	color:#3498db;
+	font-family: futura;
+    font-weight: lighter;
 }
 .stocksync_vs_syncce_center {
 	text-align: center;
