@@ -233,3 +233,8 @@ p.fs-20.w-600.mx-auto.hidden-sm-down {
 .stocksync_vs_synce_row {
 	width: 100%;
 }
+
+img.resize {
+	max-width: 60%;
+	margin-left: 47px;
+}
