@@ -214,12 +214,12 @@ p.fs-20.w-600.mx-auto.hidden-sm-down {
 	text-align: center;
 	color: #3498db;
 	font-family: futura;
-    font-weight: lighter;
+	font-weight: lighter;
 }
-.stocksync_vs_syncce_feature{
-	color:#3498db;
+.stocksync_vs_syncce_feature {
+	color: #3498db;
 	font-family: futura;
-    font-weight: lighter;
+	font-weight: lighter;
 }
 .stocksync_vs_syncce_center {
 	text-align: center;
@@ -241,4 +241,16 @@ p.fs-20.w-600.mx-auto.hidden-sm-down {
 img.resize {
 	max-width: 60%;
 	margin-left: 47px;
+}
+
+@media only screen and (max-width: 500px) {
+	img.resize {
+		margin-left: 63px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	img.resize {
+		margin-left: 55px;
+	}
 }
