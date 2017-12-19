@@ -88,12 +88,22 @@ img.spacing {
 	margin-bottom: 15px;
 }
 
-h1.display-1.hidden-sm-down.font.header-hero {
+h1.display-1.font.header-hero {
 	font-size: 3rem;
 	line-height: 1.2;
 }
 
-p.fs-20.w-600.mx-auto.hidden-sm-down {
+@media only screen and (max-width: 750px) {
+	.font.header-hero {
+		padding-top: 0;
+	}
+
+	p.fs-20.w-600.mx-auto {
+		width: 300px !important;
+	}
+}
+
+p.fs-20.w-600.mx-auto {
 	margin-top: 20px;
 }
 
