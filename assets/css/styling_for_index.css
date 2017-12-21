@@ -1,7 +1,7 @@
 .text {
 	padding: 10px;
 }
-.header {
+.header.header.header-inverse.h-fullscreen.pb-80.header-hero {
 	background-color: #6bcbfd;
 	height: 95%;
 }
@@ -266,10 +266,52 @@ img.resize {
 	img.resize {
 		margin-left: 63px;
 	}
+
+	.stocksync_vs_syncce_table {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 360px) {
 	img.resize {
 		margin-left: 55px;
+	}
+}
+
+canvas.constellation {
+	height: 100%;
+}
+
+.container.text-center.gap {
+	margin-top: 11%;
+}
+
+.topbar-middle {
+	display: block;
+	margin: 0 auto;
+}
+
+.logo-inverse-middle {
+	width: 160px;
+}
+
+.topbar-brand-middle {
+	margin-left: 120px;
+}
+
+@media only screen and (max-width: 450px) {
+	.logo-inverse-middle {
+		height: 34px;
+		width: auto;
+	}
+
+	.topbar-brand-middle {
+		margin-left: 70px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.container.text-center.gap {
+		margin-top: 30%;
 	}
 }
