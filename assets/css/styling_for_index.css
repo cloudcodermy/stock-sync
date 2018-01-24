@@ -196,10 +196,20 @@ p.fs-20.w-600.mx-auto {
 }
 .stocksync_vs_syncee_center {
 	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .stocksync_vs_syncee_table {
 	border: 1px solid #ddd !important;
 	width: 50%;
+}
+@media only screen and (max-width: 767px) {
+
+	.stocksync_vs_syncee_table {
+		width: 100%;
+		margin: 0px 20px;
+	}
 }
 .stocksynce_vs_syncee_green {
 	color: green;
@@ -230,7 +240,7 @@ img.resize {
 		margin-left: 63px;
 	}
 
-	.stocksync_vs_syncce_table {
+	.stocksync_vs_syncee_table {
 		width: 100%;
 	}
 }
