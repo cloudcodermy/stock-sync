@@ -183,31 +183,31 @@ p.fs-20.w-600.mx-auto {
 	display: table;
 }
 
-.stocksync_vs_syncce_first_table {
+.stocksync_vs_syncee_first_table {
 	text-align: center;
 	color: #3498db;
 	font-family: futura;
 	font-weight: lighter;
 }
-.stocksync_vs_syncce_feature {
+.stocksync_vs_syncee_feature {
 	color: #3498db;
 	font-family: futura;
 	font-weight: lighter;
 }
-.stocksync_vs_syncce_center {
+.stocksync_vs_syncee_center {
 	text-align: center;
 }
-.stocksync_vs_syncce_table {
+.stocksync_vs_syncee_table {
 	border: 1px solid #ddd !important;
 	width: 50%;
 }
-.stocksynce_vs_syncce_green {
+.stocksynce_vs_syncee_green {
 	color: green;
 }
-.stocksync_vs_syncce_red {
+.stocksync_vs_syncee_red {
 	color: red;
 }
-.stocksync_vs_synce_row {
+.stocksync_vs_syncee_row {
 	width: 100%;
 }
 
