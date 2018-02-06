@@ -101,6 +101,9 @@ h1.display-1.font.header-hero {
 	p.fs-20.w-600.mx-auto {
 		width: 300px !important;
 	}
+	.shopify-partner{
+		display: none;
+	}
 }
 
 p.fs-20.w-600.mx-auto {
