@@ -339,3 +339,9 @@ canvas.constellation {
 	font-size: 1rem;
 	margin: auto;
 }
+
+@media only screen and (max-width: 400px){
+body.knowledge-base .body-wrapper {
+	padding:0;
+}
+}
