@@ -19,3 +19,10 @@ $('.count').each(function() {
 			}
 		);
 });
+
+function myFunction() {
+	var iframe = document.getElementById('pricingframe');
+	var elmnt = iframe.contentWindow.document.getElementsByTagName('div')[0];
+	elmnt.style.display = 'none';
+}
+
