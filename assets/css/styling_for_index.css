@@ -1,4 +1,15 @@
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
 	letter-spacing: 0;
 }
 
@@ -14,7 +25,6 @@ section#section-features.section {
 	height: 95%;
 }
 .home_page_icon {
-	width: 260px;
 	height: 410px;
 	margin-left: 21%;
 	padding-top: 20px;
@@ -109,7 +119,7 @@ h1.display-1.font.header-hero {
 	p.fs-20.w-600.mx-auto {
 		width: 300px !important;
 	}
-	.shopify-partner{
+	.shopify-partner {
 		display: none;
 	}
 }
@@ -216,7 +226,6 @@ p.fs-20.w-600.mx-auto {
 	width: 50%;
 }
 @media only screen and (max-width: 767px) {
-
 	.stocksync_vs_syncee_table {
 		width: 100%;
 		margin: 0px 20px;
@@ -340,8 +349,8 @@ canvas.constellation {
 	margin: auto;
 }
 
-@media only screen and (max-width: 400px){
-body.knowledge-base .body-wrapper {
-	padding:0;
-}
+@media only screen and (max-width: 400px) {
+	body.knowledge-base .body-wrapper {
+		padding: 0;
+	}
 }
