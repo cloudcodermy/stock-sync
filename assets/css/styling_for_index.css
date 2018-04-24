@@ -353,3 +353,8 @@ canvas.constellation {
 		padding: 0;
 	}
 }
+
+.try-and-start{
+	color:white;
+	text-decoration: underline;
+}
