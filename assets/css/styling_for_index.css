@@ -358,3 +358,7 @@ canvas.constellation {
 	color:white;
 	text-decoration: underline;
 }
+
+.try-and-start:hover {
+	color: white;
+}
