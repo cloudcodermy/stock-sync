@@ -362,3 +362,12 @@ canvas.constellation {
 .try-and-start:hover {
 	color: white;
 }
+
+.privacy{
+	margin-left: 250px;
+	margin-right: 250px;
+	padding: 20px;
+	text-align: left;
+	background: #f7f8f9;
+	border-left: 4px solid #647382;
+}
