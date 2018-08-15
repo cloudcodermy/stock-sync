@@ -371,3 +371,10 @@ canvas.constellation {
 	background: #f7f8f9;
 	border-left: 4px solid #647382;
 }
+
+.supplier{
+	font-family: futura;
+	font-weight: lighter;
+	text-align: center;
+	color: #3498db;
+}
