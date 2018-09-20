@@ -13,10 +13,6 @@ h6,
 	letter-spacing: 0;
 }
 
-section#section-features.section {
-	padding-bottom: 20px;
-}
-
 .text {
 	padding: 10px;
 }
@@ -24,25 +20,13 @@ section#section-features.section {
 	background-color: #ffffff;
 	height: 95%;
 }
-.home_page_icon {
-}
-.home_page_icon_for_mobile {
-	width: 130px;
-	padding-top: 15px;
-}
 .blue_line {
 	background-color: #6bcbfd;
 }
 .space_div_for_home_and_features {
 	height: 40px;
 }
-.youtube_video {
-	/*margin-left: 131px;*/
-}
-.text_beside_video {
-	/*	margin-left: 75px;
-	margin-bottom: 105px;*/
-}
+
 .space_div_for_contact_us {
 	height: 50px;
 }
@@ -52,31 +36,12 @@ section#section-features.section {
 .space_text_below_header {
 	height: 30px;
 }
-#space_for_features {
-	height: 50px;
-}
+
 .font {
 	font-family: futura;
 	font-weight: lighter;
 }
-.feature_one {
-	width: 450px;
-}
-.feature_two {
-	width: 450px;
-	margin-left: 90px;
-}
-.feature_three {
-	width: 450px;
-}
-.feature_four {
-	width: 450px;
-	margin-left: 100px;
-}
-.feature_five {
-	width: 450px;
-	margin-right: 100px;
-}
+
 .upload-img-one {
 	height: 160px;
 	/*width: 160px;*/
@@ -116,7 +81,6 @@ h1.display-1.font.header-hero {
 	p.fs-20.w-600.mx-auto {
 		width: 300px !important;
 	}
-	
 }
 
 p.fs-20.w-600.mx-auto {
@@ -127,6 +91,24 @@ p.fs-20.w-600.mx-auto {
 @media only screen and (max-width: 770px) {
 	.container.text-center {
 		margin-top: 50px;
+	}
+
+	.desktop-feature {
+		display: none;
+	}
+
+	.mobile-feature {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 771px) {
+	.desktop-feature {
+		display: block;
+	}
+
+	.mobile-feature {
+		display: none;
 	}
 }
 
@@ -351,7 +333,7 @@ canvas.constellation {
 	}
 }
 
-.try-and-start{
+.try-and-start {
 	color: #07265d;
 	text-decoration: underline;
 }
@@ -360,7 +342,7 @@ canvas.constellation {
 	color: white;
 }
 
-.privacy{
+.privacy {
 	margin-left: 250px;
 	margin-right: 250px;
 	padding: 20px;
@@ -369,21 +351,29 @@ canvas.constellation {
 	border-left: 4px solid #647382;
 }
 
-.supplier{
+.supplier {
 	font-family: futura;
 	font-weight: lighter;
 	text-align: center;
 	color: #3498db;
 }
 
-.row.gap-y .remove_padding{
-	padding:0px;
+.row.gap-y .remove_padding {
+	padding: 0px;
 }
 
-.new-size-h4{
+.new-size-h4 {
 	font-size: 30px;
 }
 
-.new-size-p{
+.new-size-p {
 	font-size: 18px;
+}
+
+.section-gap {
+	padding: 40px 0;
+}
+
+.header-gap {
+	margin: 0 auto 20px;
 }
