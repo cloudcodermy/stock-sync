@@ -21,15 +21,10 @@ section#section-features.section {
 	padding: 10px;
 }
 .header.header.header-inverse.h-fullscreen.pb-80.header-hero {
-	background-color: #66cbff;
-	background: radial-gradient(circle, rgba(102,203,255,1) 0%, rgba(79,196,255,1) 46%, rgba(57,185,254,1) 91%);
+	background-color: #ffffff;
 	height: 95%;
 }
 .home_page_icon {
-	height: 410px;
-	margin-left: 21%;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 .home_page_icon_for_mobile {
 	width: 130px;
@@ -110,6 +105,7 @@ img.spacing {
 h1.display-1.font.header-hero {
 	font-size: 3rem;
 	line-height: 1.2;
+	color: #337fde;
 }
 
 @media only screen and (max-width: 750px) {
@@ -125,6 +121,7 @@ h1.display-1.font.header-hero {
 
 p.fs-20.w-600.mx-auto {
 	margin-top: 20px;
+	color: #07265d;
 }
 
 @media only screen and (max-width: 770px) {
@@ -355,7 +352,7 @@ canvas.constellation {
 }
 
 .try-and-start{
-	color:white;
+	color: #07265d;
 	text-decoration: underline;
 }
 
@@ -377,4 +374,16 @@ canvas.constellation {
 	font-weight: lighter;
 	text-align: center;
 	color: #3498db;
+}
+
+.row.gap-y .remove_padding{
+	padding:0px;
+}
+
+.new-size-h4{
+	font-size: 30px;
+}
+
+.new-size-p{
+	font-size: 18px;
 }
