@@ -363,7 +363,7 @@ canvas.constellation {
 }
 
 .try-and-start:hover {
-  color: white;
+  color: #07265d;
 }
 
 .privacy {
@@ -401,4 +401,12 @@ canvas.constellation {
 
 .header-gap {
   margin: 0 auto 20px;
+}
+
+.app-detail {
+  margin-bottom: 0;
+}
+
+.row.app-container {
+  margin-bottom: 5px;
 }
