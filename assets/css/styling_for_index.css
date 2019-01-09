@@ -366,6 +366,15 @@ canvas.constellation {
   color: #07265d;
 }
 
+.try-and-start-plan {
+  color: #0facf3;
+  text-decoration: underline;
+}
+
+.try-and-start-plan:hover {
+  color: #0facf3;
+}
+
 .privacy {
   margin-left: 250px;
   margin-right: 250px;
