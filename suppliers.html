@@ -41,7 +41,7 @@
       </div>
     </nav>
     <!-- END Topbar -->
-    <style>
+<style>
 .darken-pseudo {
   position: relative;
 }
@@ -68,21 +68,41 @@
 }
 .darken-with-text  {
   margin: 0;
-/*  font-size: 2em;
 */  text-align: center;
+  text-align: center;
   color: white;
-/*  padding-top: 50px;
-*/  position: relative;
+  position: relative;
   z-index: 1;
 }
+.title {
+  color: white;
+  margin-top: 100px; 
+  font-family: futura; 
+  font-weight: lighter; 
+  font-size: 80px;
+}
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
+}
+.mobile-button{
+  padding: 10px;
+  font-size: 10px;
+}
+
 </style>
 
 
 
     <!-- Header -->
     <header class="bgimg darken-pseudo" style="background-size: cover">
-<!--       <canvas class="constellation" style="z-index: 1"></canvas>
- -->      <div class="container text-center">
+      <div class="container">
         <div class="row h-full align-items-center">
           <style type="text/css">
           .bgimg {
@@ -90,10 +110,17 @@
           }
           </style>
         <div class="col-12 col-md-12">
-          <h1 class="darken-with-text" style="color: white; margin-top:100px; font-family: futura; font-weight: lighter; font-size: 80px" >Connect to over 500,000 Shopify retailers</h1>
+          <h1 class="darken-with-text title">Connect to over 500,000 Shopify retailers</h1>
           <br>
           <br>
-           <center><a target="_blank" class="btn btn-xl btn-round btn-primary darken-with-text" href="https://docs.google.com/forms/d/e/1FAIpQLSc_QvnmmlHb-NKil_7VMYMtiQIDQOEsOdSQDf3SucLazCTKiw/viewform?usp=sf_link" style="text-align: center;">Contact Our Supplier Solutions Team</a></center>
+            <center>
+              <a target="_blank" class="btn hidden-sm-down btn-xl btn-round btn-primary darken-with-text" href="https://docs.google.com/forms/d/e/1FAIpQLSc_QvnmmlHb-NKil_7VMYMtiQIDQOEsOdSQDf3SucLazCTKiw/viewform?usp=sf_link">
+                <span>Contact Our Supplier Solutions Team</span>
+              </a>
+              <a target="_blank" class="btn mobile-button hidden-md-up btn-round btn-primary darken-with-text" href="https://docs.google.com/forms/d/e/1FAIpQLSc_QvnmmlHb-NKil_7VMYMtiQIDQOEsOdSQDf3SucLazCTKiw/viewform?usp=sf_link">
+                <span>Contact Our Supplier Solutions Team</span>
+              </a>
+             </center>
            <br>
            <br>
         </div>
@@ -249,12 +276,20 @@
    </section> -->
     
     <footer class="site-footer">
-      <div class="container" style="text-align: center;">With 5 years of experience providing e-commerce solutions to thousands of Shopify merchant,
-        <br>
-      We understand that wholesale selling is a lot of work.
-      We will help you overcome all those hurdles that you are facing
-       <h6 class="heading-alt text-uppercase fs-14 mb-2"></h6>
-             <center><a target="_blank" class="btn btn-xl btn-round btn-primary darken-with-text" href="https://docs.google.com/forms/d/e/1FAIpQLSc_QvnmmlHb-NKil_7VMYMtiQIDQOEsOdSQDf3SucLazCTKiw/viewform?usp=sf_link" style="text-align: center;">Contact Our Supplier Solutions Team</a></center>
+      <div class="container" style="text-align: center;">
+      <p>With 5 years of experience providing e-commerce solutions to thousands of Shopify merchant,</p>
+      <br>
+      <p>We understand that wholesale selling is a lot of work.
+      We will help you overcome all those hurdles that you are facing</p>
+      <br>
+        <center>
+          <a target="_blank" class="btn hidden-sm-down btn-xl btn-round btn-primary darken-with-text" href="https://docs.google.com/forms/d/e/1FAIpQLSc_QvnmmlHb-NKil_7VMYMtiQIDQOEsOdSQDf3SucLazCTKiw/viewform?usp=sf_link">
+            <span>Contact Our Supplier Solutions Team</span>
+          </a>
+          <a target="_blank" class="btn mobile-button hidden-md-up btn-round btn-primary darken-with-text" href="https://docs.google.com/forms/d/e/1FAIpQLSc_QvnmmlHb-NKil_7VMYMtiQIDQOEsOdSQDf3SucLazCTKiw/viewform?usp=sf_link">
+            <span>Contact Our Supplier Solutions Team</span>
+          </a>
+        </center>
       </div>
     </footer> 
 
