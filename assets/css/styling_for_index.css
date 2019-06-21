@@ -419,3 +419,13 @@ canvas.constellation {
 .row.app-container {
   margin-bottom: 5px;
 }
+
+.supplier-listed {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 500px) {
+  .supplier-listed {
+    font-size: 11px;
+  }
+}
