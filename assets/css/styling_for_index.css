@@ -429,3 +429,35 @@ canvas.constellation {
     font-size: 11px;
   }
 }
+
+@media (min-width: 1000px) {
+  .grid-container {
+    display: grid;
+    grid-gap: 0px 5px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 999px) {
+  .grid-container {
+    display: grid;
+    grid-gap: 0px 5px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-container .grid-item a {
+  color: black;
+  font-size: 15px;
+}
+
+.grid-container .grid-item a:hover {
+  color: #0facf3;
+  font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .grid-container .grid-item a {
+    font-size: 11px;
+  }
+}
