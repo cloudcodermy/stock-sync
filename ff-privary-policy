@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8">
+    <title>Privacy Policy | Facebook Feed</title>
+
+    <!-- Styles -->
+    <link href="assets/css/core.min.css" rel="stylesheet">
+    <link href="assets/css/thesaas.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/styling_for_index.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/favicon-stocksync.png">
+    <link rel="icon" href="assets/img/favicon-stocksync.png">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  </head> 
+
+  <body id="home">
+  <!-- Navbar -->
+  <!-- navbar must include an icon and links or buttons Home Features Testimonials Contact Us and Help -->
+  <!-- it also must be fix at all time and mobile responsive to iphone 4 -->
+  <!-- click on like will bring you to page bootstrap scrollspy -->
+   <nav class="topbar topbar-inverse topbar-expand-sm topbar-sticky">
+      <div class="container">
+        
+        <div class="topbar-left">
+
+            <a class="topbar-brand" href="http://www.wyred-up.com/">
+            <img class="logo-default" src="https://i1.wp.com/www.wyred-up.com/wp-content/uploads/2018/03/logo2.png" alt="logo" style="height: 30px;">
+          </a>
+        </div>
+
+
+        <div class="topbar-right">
+          <ul class="topbar-nav nav">
+            <li class="nav-item"><a class="nav-link" href="http://www.wyred-up.com" data-scrollto="">Home</a></li> 
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <header class="header header-inverse h-fullscreen pb-80 header-hero"  style="background:#6bcdfd">
+      <div class="container text-center">
+        <div class="space" style="height:20px;"></div>
+        <h1 class="stocksync_vs_syncee_feature" >Wyred Up Facebook Feed Privacy Policy<span style="font-family: sans-serif; font-weight: 600;"></span></h1>
+      </div>
+    </header>
+    <div class="space" style="height: 20px;"></div>
+
+    <div class="privacy">
+    
+    <h4>Wyred Up Facebook Feed Privacy Policy</h4>
+
+    <p>Wyred Up Facebook Feed "the App” provides Exports Order to CSV "the Service" to merchants who use Shopify to power their stores. This Privacy Policy describes how personal information is collected, used, and shared when you install or use the App in connection with your Shopify-supported store.</p>
+ 
+    <h4>Personal Information the App Collects</h4>
+
+    <p>When you install the App, we are automatically able to access certain types of information from your Shopify account: We use Order API to generate the export file.</p>
+    
+    <p>We collect personal information directly from the relevant individual, through your Shopify account, or using the following technologies: “Cookies” are data files that are placed on your device or computer and often include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit http://www.allaboutcookies.org. “Log files” track actions occurring on the Site, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps. “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.</p>
+    
+    <h4>How Do We Use Your Personal Information?</h4>
+    
+    <p>We use the personal information we collect from you and your customers in order to provide the Service and to operate the App. Additionally, we use this personal information to: Communicate with you; Optimize or improve the App; and Provide you with information or advertising relating to our products or services.</p>
+
+    <h4>Sharing Your Personal Information</h4>
+
+    <p>We may store personal informations in locations outside the direct control of Wyred Up Facebook Feed (for instance, on servers or databases co-located with hosting providers).</p> 
+
+    <p>Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.</p> 
+
+    <p>Behavioural Advertising As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s (“NAI”) educational page at http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.</p> 
+
+    <p>You can opt out of Google targeted advertising by following these instuctions: https://support.google.com/adxbuyer/answer/2695260?hl=en. Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at: http://optout.aboutads.info/.</p> 
+
+    <p>Your Rights If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.</p> 
+
+    <p>Additionally, if you are a European resident we note that we are processing your information in order to fulfill contracts we might have with you (for example if you make an order through the Site), or otherwise to pursue our legitimate business interests listed above. Additionally, please note that your information will be transferred outside of Europe, including to Canada and the United States.</p> 
+
+    <p>Data Retention When you export the orders through the Site, we will receiver your customers' information but we weill maintain those information temporary for generating the file.</p> 
+
+    <p>Changes We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.</p> 
+
+    <p>Contact Us For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by email at exportable@stock-sync.com</p> 
+
+    </div>
+
+
+
+    
+
+</body>
+</html>
