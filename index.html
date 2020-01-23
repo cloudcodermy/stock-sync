@@ -494,7 +494,7 @@
             </div>
           </div>
           <div class="actions">
-            <input type="submit" id="submit" value="Send Message" />
+            <input type="button" id="submit" value="Send Message" />
           </div>
         </form>
         <!-- <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
@@ -605,22 +605,17 @@
     <script src="assets/js/landingpage.js"></script>
     <script>
       $(document).ready(function(){
-        // click on button submit
         $("#submit").on('click', function(){
-          console.log('asdasd', JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "message": $('#message').val(), "field_values": {"email": $('#email').val()} }))
-            // send ajax
             $.ajax({
-                url: 'https://stock-sync1.kayako.com/api/v1/conversations.json', // url where to submit the request
-                type : "POST", // type of action POST || GET
-                dataType : 'json', // data type
-                data : JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "message": $('#message').val(), "field_values": {"email": $('#email').val()} }), // post data || get data
+                url: 'https://stock-sync1.kayako.com/api/v1/conversations.json', 
+                type : "POST", 
+                dataType : 'json', 
+                data : JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "contents": $('#message').val(), "field_values": {"store_name": $('#email').val()} }),
                 contentType: 'application/json;charset=UTF-8',
                 done: function(response) {
                     console.log(response);
                 },
                 success : function(result) {
-                    // you can see the result from the console
-                    // tab of the developer tools
                     console.log(result);
                 },
                 error: function( jqXhr, textStatus, errorThrown ){
