@@ -610,7 +610,7 @@
           console.log('asdasd', JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "message": $('#message').val(), "field_values": {"email": $('#email').val()} }))
             // send ajax
             $.ajax({
-                url: '/api/v1/conversations.json', // url where to submit the request
+                url: 'https://stock-sync1.kayako.com/api/v1/conversations.json', // url where to submit the request
                 type : "POST", // type of action POST || GET
                 dataType : 'json', // data type
                 data : JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "message": $('#message').val(), "field_values": {"email": $('#email').val()} }), // post data || get data
