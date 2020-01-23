@@ -481,7 +481,23 @@
       <div class="col-12 col-md-12 text-center">
         <h2 class="font">CONTACT US</h2>
         <p>Let stay in touch.</p>
-        <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
+        <form id="contact-support-form" method="post">
+          <div class="row gap-y">
+            <div class="col-12">
+              <input type="text" name="name" id="name" value="" placeholder="Name" style="width: 70%" />
+            </div>
+            <div class="col-12">
+              <input type="text" name="email" id="email" value="" placeholder="Email" style="width: 70%" />
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" placeholder="Enter your message" rows="6" style="width: 70%"></textarea>
+            </div>
+          </div>
+          <div class="actions">
+            <input type="submit" id="submit" value="Send Message" />
+          </div>
+        </form>
+        <!-- <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
         <form id="odamae-contact-form" method="post" style="display: none">
           <div class="odamae-row">
             <input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Name" />
@@ -492,7 +508,7 @@
           <div class="odamae-row actions">
             <input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_5e1cb42bc2b761fdda3a432838c1f6e5_0843" />
           </div>
-        </form>
+        </form> -->
       </div>
     </div>
   </div>
@@ -587,5 +603,32 @@
     <script src="assets/js/thesaas.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/landingpage.js"></script>
+    <script>
+      $(document).ready(function(){
+        // click on button submit
+        $("#submit").on('click', function(){
+          console.log('asdasd', JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "message": $('#message').val(), "field_values": {"email": $('#email').val()} }))
+            // send ajax
+            $.ajax({
+                url: 'https://stock-sync1.kayako.com/', // url where to submit the request
+                type : "POST", // type of action POST || GET
+                dataType : 'json', // data type
+                data : JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "message": $('#message').val(), "field_values": {"email": $('#email').val()} }), // post data || get data
+                contentType: 'application/json;charset=UTF-8',
+                done: function(response) {
+                    console.log(response);
+                },
+                success : function(result) {
+                    // you can see the result from the console
+                    // tab of the developer tools
+                    console.log(result);
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( errorThrown );
+                }
+            })
+        });
+    });
+    </script>
   </body>
 </html>
