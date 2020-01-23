@@ -610,7 +610,7 @@
                 url: 'https://stock-sync1.kayako.com/api/v1/conversations.json', 
                 type : "POST", 
                 dataType : 'json', 
-                data : JSON.stringify( { "subject": 'from landingpage', "name": $('#name').val(), "email": $('#email').val(), "contents": $('#message').val(), "field_values": {"store_name": $('#email').val()} }),
+                data : JSON.stringify( { "subject": $('#name').val() + " " + "has contacted you via Contact Us", "name": $('#name').val(), "email": $('#email').val(), "contents": $('#message').val(), "field_values": {"store_name": $('#email').val()} }),
                 contentType: 'application/json;charset=UTF-8',
                 done: function(response) {
                     console.log(response);
