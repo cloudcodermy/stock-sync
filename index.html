@@ -484,31 +484,22 @@
         <form id="contact-support-form" method="post">
           <div class="row gap-y">
             <div class="col-12">
-              <input type="text" name="name" id="name" value="" placeholder="Name" style="width: 70%" />
+              <input type="text" name="name" id="name" value="" placeholder="Name" class="contact-us-form" required  />
+              <p id="name-validation-message" class="error-message"></p>
             </div>
             <div class="col-12">
-              <input type="text" name="email" id="email" value="" placeholder="Email" style="width: 70%" />
+              <input type="text" name="email" id="email" value="" placeholder="Email" class="contact-us-form" required />
+              <p id="email-validation-message" class="error-message"></p>
             </div>
             <div class="col-12">
-              <textarea name="message" id="message" placeholder="Enter your message" rows="6" style="width: 70%"></textarea>
+              <textarea name="message" id="message" placeholder="Enter your message" rows="6" class="contact-us-form" required></textarea>
+              <p id="message-validation-message" class="error-message"></p>
             </div>
           </div>
           <div class="actions">
-            <input type="button" id="submit" value="Send Message" />
+            <input type="button" id="submit-form" value="Send Message" style="background: #0facf3;color: white;border-color: #0facf3;border-radius: 5px;" />
           </div>
         </form>
-        <!-- <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script>
-        <form id="odamae-contact-form" method="post" style="display: none">
-          <div class="odamae-row">
-            <input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Name" />
-            <input type="text" class="odamae-input" name="contact" id="contact" value="" placeholder="Email" />
-            <textarea class="odamae-textarea" name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-          </div>
-          <div class="odamae-row visual-captcha"></div>
-          <div class="odamae-row actions">
-            <input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_5e1cb42bc2b761fdda3a432838c1f6e5_0843" />
-          </div>
-        </form> -->
       </div>
     </div>
   </div>
@@ -605,23 +596,43 @@
     <script src="assets/js/landingpage.js"></script>
     <script>
       $(document).ready(function(){
-        $("#submit").on('click', function(){
-            $.ajax({
-                url: 'https://stock-sync1.kayako.com/api/v1/conversations.json', 
-                type : "POST", 
-                dataType : 'json', 
-                data : JSON.stringify( { "subject": $('#name').val() + " " + "has contacted you via Contact Us", "name": $('#name').val(), "email": $('#email').val(), "contents": $('#message').val(), "field_values": {"store_name": $('#email').val()} }),
-                contentType: 'application/json;charset=UTF-8',
-                done: function(response) {
-                    console.log(response);
-                },
-                success : function(result) {
-                    console.log(result);
-                },
-                error: function( jqXhr, textStatus, errorThrown ){
-                    console.log( errorThrown );
-                }
-            })
+        function emailIsValid (email) {
+          return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+        }
+
+        $("#submit-form").on('click', function(){
+          if ($('#name').val().length == 0 ){
+            $('#name-validation-message').html('Name is required')
+          } 
+          if ($('#email').val().length == 0){
+            $('#email-validation-message').html('Email is required')
+          }else if (emailIsValid($('#email').val()) === false){
+            $('#email-validation-message').html('Enter a valid email address')
+          }
+
+          if ($('#message').val().length == 0){
+            $('#message-validation-message').html('Message is required')
+          }
+
+          $.ajax({
+              url: 'https://stock-sync1.kayako.com/api/v1/conversations.json', 
+              type : "POST", 
+              dataType : 'json', 
+              data : JSON.stringify( { "subject": $('#name').val() + " " + "has contacted you via Contact Us", "name": $('#name').val(), "email": $('#email').val(), "contents": $('#message').val(), "field_values": {"store_name": $('#email').val()} }),
+              contentType: 'application/json;charset=UTF-8',
+              done: function(response) {
+                  console.log(response);
+              },
+              success : function(result) {
+                  console.log(result);
+                  alert("Message sent successfully. We'll get in touch with you soon.");
+                  location.reload();
+
+              },
+              error: function( jqXhr, textStatus, errorThrown ){
+                  console.log( errorThrown );
+              }
+          })
         });
     });
     </script>

@@ -461,3 +461,12 @@ canvas.constellation {
     font-size: 11px;
   }
 }
+
+.contact-us-form {
+  width: 70%;
+  padding: 2px 5px;
+}
+
+.error-message {
+  margin: 8px 0px 0px 0px;
+}
