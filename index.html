@@ -615,7 +615,7 @@
           }
 
           $.ajax({
-              url: 'https://stock-sync1.kayako.com/api/v1/conversations.json', 
+              url: 'https://stocksync.kayako.com/api/v1/conversations.json', 
               type : "POST", 
               dataType : 'json', 
               data : JSON.stringify( { "subject": $('#name').val() + " " + "has contacted you via Contact Us", "name": $('#name').val(), "email": $('#email').val(), "contents": $('#message').val(), "field_values": {"store_name": $('#email').val()} }),
