@@ -465,6 +465,7 @@ canvas.constellation {
 .contact-us-form {
   width: 70%;
   padding: 2px 5px;
+  border: 1px solid #0facf3;
 }
 
 .error-message {
