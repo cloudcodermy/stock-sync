@@ -471,3 +471,8 @@ canvas.constellation {
 .error-message {
   margin: 8px 0px 0px 0px;
 }
+
+.captera {
+  text-align: center;
+  margin-bottom: 16px;
+}
