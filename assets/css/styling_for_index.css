@@ -473,6 +473,5 @@ canvas.constellation {
 }
 
 .captera {
-  text-align: center;
-  margin-bottom: 16px;
+  padding: 0;
 }
